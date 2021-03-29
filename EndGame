@@ -1,4 +1,4 @@
-//	Karvinen S2 PD2 Filter 3.1
+//	Karvinen S2 PD2 Filter 3.2
 
 
 
@@ -283,7 +283,7 @@ ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%DOT-A8%%NL%%GOLD%*     %WHITE%
 
 //SET Items
 //SET Rings
-ItemDisplay[(rin) SET !ID CLVL>85]:%BORDER-50%%PURPLE%**********%NL%%NL%     %GREEN%Ring   %NL%%NL%%PURPLE%**********
+ItemDisplay[(rin) SET !ID CLVL<85]:%BORDER-50%%PURPLE%**********%NL%%NL%     %GREEN%Ring   %NL%%NL%%PURPLE%**********
 ItemDisplay[(rin) SET !ID CLVL>84]:
 //SET Amulets
 ItemDisplay[(amu) SET !ID]:%BORDER-50%%PURPLE%**********%NL%%NL%     %GREEN%Amulet    %NL%%NL%%PURPLE%**********
@@ -417,8 +417,8 @@ ItemDisplay[(lbt) SET !ID CLVL>85]:
 ItemDisplay[(mpi) SET !ID CLVL>85]:
 
 //Vidala's Set
-//Vidala's Barb Long War Bow
-ItemDisplay[(lwb) SET !ID CLVL>85]:
+//Vidala's Barb Long Battle Bow
+ItemDisplay[(lbb) SET !ID CLVL>85]:
 //Vidala's Ambush Leather Armor
 ItemDisplay[(lea) SET !ID CLVL>85]:
 //Vidala's Fetlock Light Plated Boots
