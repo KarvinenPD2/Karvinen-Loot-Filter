@@ -1,4 +1,4 @@
-//	Karvinen S2 PD2 Filter 3.0
+//	Karvinen S2 PD2 Filter 3.1
 
 
 
@@ -61,7 +61,9 @@ ItemDisplay[vps CLVL<31]:%GREEN%!%WHITE%stamina
 ItemDisplay[wms CLVL<31]:%GREEN%!%WHITE%thaw
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>30]:
 ItemDisplay[yps CLVL<90]:%GREEN%!%WHITE%ant
+ItemDisplay[yps CLVL>89]:
 ItemDisplay[key CLVL<80]:%GRAY%key%CONTINUE%
+ItemDisplay[key CLVL>79]:
 
 //Arrows & Bolts
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
@@ -280,6 +282,13 @@ ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]:%DOT-A8%%NL%%GOLD%*     %WHITE%
 
 
 //SET Items
+//SET Rings
+ItemDisplay[(rin) SET !ID CLVL>85]:%BORDER-50%%PURPLE%**********%NL%%NL%     %GREEN%Ring   %NL%%NL%%PURPLE%**********
+ItemDisplay[(rin) SET !ID CLVL>84]:
+//SET Amulets
+ItemDisplay[(amu) SET !ID]:%BORDER-50%%PURPLE%**********%NL%%NL%     %GREEN%Amulet    %NL%%NL%%PURPLE%**********
+
+
 //Angelic's Set
 //Angelic Mantle Ring Mail
 ItemDisplay[(rng) SET !ID CLVL>85]:
