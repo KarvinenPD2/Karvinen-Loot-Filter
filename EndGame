@@ -1,4 +1,4 @@
-// Karvinen S2 PD2 Filter 3.6
+// Karvinen S2 PD2 Filter 3.7
 // Shoutout to Kryszard for base
 
 //All hidden uniques / sets still show until lvl 80 for most and up to 95
@@ -92,7 +92,7 @@ ItemDisplay[glr]:%NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
 ItemDisplay[glb]:%NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
 ItemDisplay[gly]:%NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
 ItemDisplay[skl]:%NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
-ItemDisplay[gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs]:  %NAME%  
+ItemDisplay[gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs]:      %NAME%      
 ItemDisplay[gzvs OR glys OR glbs OR glgs OR glrs OR glws OR skls]:
 ItemDisplay[gpv]:%NAME% %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[gpw]:%NAME% %ORANGE%[%WHITE%O%ORANGE%]
@@ -129,7 +129,7 @@ ItemDisplay[GEMTYPE=7 GEM>3]:%NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 //Runes
 ItemDisplay[(RUNE<9) (CLVL<90)]:%PX-62%%GOLD%*  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%GOLD%  *%CONTINUE%
 ItemDisplay[(RUNE<10) (CLVL>89)]:
-ItemDisplay[RUNE>9 AND RUNE<20]:%GOLD%*  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%GOLD%  *%CONTINUE%
+ItemDisplay[RUNE>9 AND RUNE<20]:%GOLD%*      %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%GOLD%      *%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<24]:%BORDER-50%%RED%********** %RED%*********%WHITE%%NAME%%GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%*********%RED%**********%CONTINUE%
 ItemDisplay[RUNE>23]:%BORDER-50% %RED%                         %WHITE%%NAME%%GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%                         %RED%%CONTINUE%
 
