@@ -1,4 +1,4 @@
-// Karvinen S2 PD2 Filter 3.8
+// Karvinen S2 PD2 Filter 3.9
 // Shoutout to Kryszard for base
 
 //All hidden uniques / sets still show until lvl 80 for most and up to 95
@@ -17,9 +17,9 @@ ItemDisplay[(7wa) ETH SOCK=5 NMAG !RW]:%BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLO
 ItemDisplay[(2ax) SOCK=5 NMAG !RW]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% BEAST BASE
 
 //Infinity / Insight
-ItemDisplay[(WP8 OR WP7) (SOCK=5 OR SOCK=0) NMAG !RW CLVL<85]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
-ItemDisplay[(7br OR 7s8 OR 7wc) (SOCK=5 OR SOCK=0) NMAG !RW ETH (CLVL>84 OR CLVL<95)]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
-ItemDisplay[(7br OR 7s8 OR 7wc) (SOCK=5 OR SOCK=0) NMAG !RW CLVL>94]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
+ItemDisplay[(WP8 OR WP7) (SOCK=4 OR SOCK=0) NMAG !RW CLVL<85]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
+ItemDisplay[(7br OR 7s8 OR 7wc) (SOCK=4 OR SOCK=0) NMAG !RW (CLVL>84 OR CLVL<95)]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
+ItemDisplay[(7br OR 7s8 OR 7wc) (SOCK=4 OR SOCK=0) NMAG !RW ETH CLVL>94]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% Insight/Infinity
 
 
 
