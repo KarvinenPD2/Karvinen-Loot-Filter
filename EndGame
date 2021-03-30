@@ -1,14 +1,17 @@
-// Karvinen S2 PD2 Filter 3.4
+// Karvinen S2 PD2 Filter 3.5
 // Shoutout to Kryszard for base
 
 
+//BASES
 
-
+//BERSERKER AXE ETH 0/5 SOCKETS FOR DCLONE
 ItemDisplay[(7wa) ETH SOCK=0 NMAG]:%BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN%pick me dclone base
 ItemDisplay[(7wa) ETH SOCK=5 NMAG !RW]:%BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN%pick me dclone base
 
 //ItemDisplay[(6cb) SOCK=4 NMAG !RW]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% PLAGUE BOW
-ItemDisplay[(uui) SOCK=3 NMAG !RW]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN%
+//ItemDisplay[(uui) SOCK=3 NMAG !RW]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% ENIGMA
+
+ItemDisplay[(2ax) SOCK=5 NMAG !RW]:%BORDER-50%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %WHITE%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%GREEN% BEAST BASE
 
 
 
